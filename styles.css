@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4a4a4a;
+    padding: 40px;
+    text-align: center;
+    animation: colorChange 2s linear infinite;
+    
+}
+
+@keyframes colorChange {
+    0% {
+        color: #c59e00;
+    }
+    50% {
+        color: #ff0000;
+    }
+    100% {
+        color: #c59e00;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+div {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
